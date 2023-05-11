@@ -1,4 +1,7 @@
 import "@styles/globals.css";
+import Navbar from "@components/Navbar";
+
+// import Provider from "@components/Navbar";
 
 export const metadata = {
   title: 'Prompter',
@@ -14,6 +17,7 @@ const RootLayout =({ children })=> {
           </div>
 
           <main className='app'>
+            <Navbar/>
             {children}
           </main>
       </body>   
