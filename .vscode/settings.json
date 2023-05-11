@@ -1,5 +1,7 @@
 {
   "debug.allowBreakpointsEverywhere": true,
   "files.autoGuessEncoding": true,
-  "cSpell.words": ["Promptopia"]
+  "cSpell.words": ["Promptopia"],
+  "json.format.enable": true,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
 }

@@ -1,5 +1,6 @@
 import "@styles/globals.css";
 import Navbar from "@components/Navbar";
+import Provider from "@components/Provider";
 
 // import Provider from "@components/Navbar";
 
@@ -12,6 +13,7 @@ const RootLayout =({ children })=> {
   return (
     <html lang="en">
       <body>
+        <Provider>
           <div className='main'>
             <div className='gradient' />
           </div>
@@ -20,6 +22,7 @@ const RootLayout =({ children })=> {
             <Navbar/>
             {children}
           </main>
+        </Provider>
       </body>   
     </html>
   )
