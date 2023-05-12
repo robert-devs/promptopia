@@ -2,8 +2,6 @@ import "@styles/globals.css";
 import Navbar from "@components/Navbar";
 import Provider from "@components/Provider";
 
-// import Provider from "@components/Navbar";
-
 export const metadata = {
   title: 'Prompter',
   description: 'Discover & Share prompts',
